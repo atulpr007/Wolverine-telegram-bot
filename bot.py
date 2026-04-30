@@ -30,7 +30,7 @@ async def handle_video(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 caption=caption
             )
 
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TOKEN = os.getenv("8245817710:AAGufmsCeZTDnqqdI6okAeldJbyY5OE-VGk")
 
 app = ApplicationBuilder().token(TOKEN).build()
 
